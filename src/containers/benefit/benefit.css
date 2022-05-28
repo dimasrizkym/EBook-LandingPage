@@ -1,0 +1,104 @@
+.ebook__benefit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EDFCFD;
+  gap: 3.75rem;
+
+  padding-top: 12.5rem;
+  padding-bottom: 6.25rem;
+}
+
+.ebook__benefit-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* START: TitleSection
+---------------------------------------------- */
+.ebook__text {
+  flex-direction: column;
+  gap: 1.25rem;
+}
+/* END: TitleSection
+---------------------------------------------- */
+
+.ebook__benefit-left_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  margin-top: 2.25rem;
+}
+
+.ebook__benefit-left_list-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.ebook__benefit-left_list-content p {
+  font-family: var(--font-family);
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.ebook__benefit-right {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ebook__benefit-right img {
+  display: flex;
+  align-self: center;
+  margin-bottom: -1rem;
+}
+
+.ebook__benefit-right_info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  background: var(--color-primary);
+  box-shadow: 0px 30px 60px rgba(0, 186, 199, 0.4);
+  border-radius: 20px;
+
+  padding: 1.875rem;
+  bottom: 0;
+}
+
+.ebook__benefit-right_info-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ebook__benefit-right_info-content > * {
+  display: flex;
+  align-self: center;
+}
+
+.ebook__benefit-right_info-content:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);;
+}
+
+.ebook__benefit-right_info-content p {
+  font-family: var(--font-family);
+  color: var(--text-white);
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;;
+}
+
+.ebook__benefit-right_info-content span {
+  font-family: var(--font-family);
+  color: var(--text-white);
+  font-size: 14px;
+  line-height: 18px;
+}

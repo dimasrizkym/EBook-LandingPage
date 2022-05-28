@@ -1,0 +1,34 @@
+
+
+.ebook__cardTarget {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 5.25rem;
+} 
+
+.ebook__cardTarget img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+}
+
+.ebook__cardTarget h4 {
+  font-family: var(--font-family);
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.ebook__cardTarget p {
+  font-family: var(--font-family);
+  color: var(--text-dark);
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  opacity: .8;
+}

@@ -1,0 +1,60 @@
+.ebook__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ebook__text-title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  gap: .625rem;
+} 
+
+.ebook__text-title_subTitle {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+}
+
+.ebook__text-title_subTitle div {
+  width: 30px;
+  height: 2px;
+
+  background: var(--color-primary);
+}
+
+.ebook__text-title_subTitle h6 {
+  font-family: var(--font-family);
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+}
+
+.ebook__text-title h2 {
+  width: 80%;
+  font-family: var(--font-family);
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.ebook__text-paragraf {
+  flex: 1;
+  display: flex;
+}
+
+.ebook__text-paragraf p {
+  font-family: var(--font-family);
+  color: var(--text-dark);
+  font-size: 18px;
+  line-height: 32px;
+  opacity: .8;
+}
+
+
+

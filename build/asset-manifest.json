@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd6a0d7c.css",
+    "main.js": "/static/js/main.88ecedb0.js",
+    "static/media/aboout-author.png": "/static/media/aboout-author.7afb7d36430b165a35cd.png",
+    "static/media/ebook-header.png": "/static/media/ebook-header.6a3afe80a3bb5d79e8f1.png",
+    "static/media/ebook-otherBenefit.png": "/static/media/ebook-otherBenefit.b4bfc5b100497554e3a2.png",
+    "static/media/ebook-benefit.png": "/static/media/ebook-benefit.3bab7fb0e20d680aa24f.png",
+    "static/media/bg-price.png": "/static/media/bg-price.cd48bbb0c4c4576ff4db.png",
+    "static/media/cardTarget2.jpg": "/static/media/cardTarget2.13b728de43d9f0e3110d.jpg",
+    "static/media/cardTarget3.jpg": "/static/media/cardTarget3.151120cb95b3e3ed0b15.jpg",
+    "static/media/cardTarget1.jpg": "/static/media/cardTarget1.14f214d544f528cb2fc9.jpg",
+    "static/media/bg-header.svg": "/static/media/bg-header.3d912376169e62281a4f.svg",
+    "index.html": "/index.html",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.a1706bb94fa93c023209.svg",
+    "static/media/ic-x-sm.svg": "/static/media/ic-x-sm.f050472b046009d835484b477936a4ff.svg",
+    "static/media/ic-ceklis-sm.svg": "/static/media/ic-ceklis-sm.7dca246113b307c2290bfe263d66c074.svg",
+    "main.cd6a0d7c.css.map": "/static/css/main.cd6a0d7c.css.map",
+    "main.88ecedb0.js.map": "/static/js/main.88ecedb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd6a0d7c.css",
+    "static/js/main.88ecedb0.js"
+  ]
+}

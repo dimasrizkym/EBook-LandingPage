@@ -1,0 +1,91 @@
+.ebook__bookIntroduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--color-primary);
+  
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.ebook__bookIntroduction-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* START : TitLeSection
+--------------------------------------------- */
+.ebook__bookIntroduction .ebook__text-title h2,
+.ebook__bookIntroduction .ebook__text-title h6 {
+  color: var(--text-white);
+}   
+
+.ebook__bookIntroduction .ebook__text-title_subTitle > div {
+  background: var(--text-white);
+}
+/* END : TitLeSection
+--------------------------------------------- */
+
+
+.ebook__bookIntroduction-left hr {
+  width: 80%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  outline: none;
+
+  margin: 2.5rem 0;
+}
+
+.ebook__bookIntroduction-left_author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.ebook__bookIntroduction-left_author-picture img {
+  min-width: 50px;
+  width: 100%;
+}
+
+.ebook__bookIntroduction-left_author-picture {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+
+.ebook__bookIntroduction-left_author-picture h5 {
+  font-family: var(--font-family);
+  color: var(--text-white);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.ebook__bookIntroduction-left_author-picture p {
+  font-family: var(--font-family);
+  color: var(--text-white);
+  font-size: 14px;
+  line-height: 18px;
+  opacity: .8;
+}
+
+
+.ebook__bookIntroduction-right {
+  flex: 1.25;
+  display: flex;
+}
+
+.ebook__bookIntroduction-right p {
+  font-family: var(--font-family);
+  color: var(--text-white);
+  font-size: 18px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+

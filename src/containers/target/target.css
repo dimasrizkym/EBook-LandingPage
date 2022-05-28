@@ -1,0 +1,12 @@
+.ebook_target {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  margin-bottom: 12.5rem;
+}
+
+.ebook__target-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

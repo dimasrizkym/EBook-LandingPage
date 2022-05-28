@@ -1,0 +1,156 @@
+.ebook__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ebook__navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.ebook__navbar-logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.ebook__navbar-logo h4 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--text-white);
+}
+
+.ebook__navbar-list {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ebook__navbar-list p a {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--text-white);
+  text-transform: capitalize;
+}
+
+.ebook__navbar-download button{
+  padding: .8rem 1.6rem;
+  background-color: var(--text-white);
+  border: none;
+  outline: none;
+  border-radius: 100px;
+
+  /* text */
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--text-dark);
+}
+
+/* START : Navbar Responsive */
+.ebook__navbar-responsive{
+  position: relative;
+  margin-left: 1rem;
+  display: none;
+}
+
+.ebook__navbar-responsive{
+  cursor: pointer;
+}
+
+.ebook__navbar-responsive_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  
+  text-align: end;
+  background: var(--bg-dark);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+
+@media screen and (max-width: 900px) {
+  .ebook__navbar {
+    padding: 1.6rem 4.8rem;
+  } 
+
+  .ebook__navbar-logo img {
+    height: 36px;
+    margin-right: .5rem;
+  }
+  
+  .ebook__navbar-logo h4 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-white);
+  }
+
+  .ebook__navbar-list,
+  .ebook__navbar-download {
+    display: none;
+  }
+
+  .ebook__navbar-responsive{
+    display: block;
+  }
+
+  .ebook__navbar-responsive_container-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ebook__navbar-responsive_container-list p {
+    margin-bottom: 1.5rem;
+  }
+
+  .ebook__navbar-responsive_container-list p a{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-white);
+    text-transform: capitalize;
+  }
+
+  .ebook__navbar-responsive_container-download button {
+    margin-top: 1.5rem;
+    padding: .6rem 1.2rem;
+    background-color: var(--text-white);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+
+    /* text */
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--text-dark);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ebook__navbar {
+    padding: 1rem 1.5rem;
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .ebook__navbar {
+    padding: 1rem 1rem;
+  } 
+}

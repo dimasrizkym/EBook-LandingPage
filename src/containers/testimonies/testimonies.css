@@ -1,0 +1,146 @@
+/* START : TitLeSection
+--------------------------------------------- */
+.ebook__testimonies .ebook__text {
+  flex-direction: row;
+  background: #EDFCFD;
+  border-radius: 20px;
+  padding: 6.25rem 6.25rem 30rem;
+}
+/* END : TitLeSection
+--------------------------------------------- */
+.ebook__testimonies {
+  position: relative;
+}
+
+.ebook__testimonies-container_card {
+  display: flex;
+  flex-direction: column;
+  background: var(--text-white);
+  box-shadow: 0px 30px 60px rgba(0, 186, 199, 0.08);
+  border-radius: 10px;
+  
+  padding: 30px;
+}
+
+.ebook__testimonies-container_card > p{ 
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-dark);
+  margin: 30px 0px;
+}
+
+.ebook__testimonies-container_card-people {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ebook__testimonies-container_card-peoplez > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;  
+}
+
+.ebook__testimonies-container_card-people_data {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+}
+
+.ebook__testimonies-container_card-people_data > h6 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--text-dark);
+}
+
+.ebook__testimonies-container_card-people_data > p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(39, 45, 62, 0.8);
+}
+
+
+/* START : Swiper
+--------------------------------------------- */
+.ebook__testimonies .swiper {
+  max-width: 95%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: visible;
+}
+
+.ebook__testimonies .swiper-scrollbar{
+  display: none;
+}
+
+.ebook__testimonies .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -2.25rem;
+}
+
+.ebook__testimonies .swiper-button-next {
+  width: 50px;
+  height: 50px;
+  right: -1.25rem;;
+  border-radius: 100px;
+  background-color: var(--color-primary);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-image: url(../../assets/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.ebook__testimonies .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  left: -1.25rem;
+  border-radius: 100px;
+  background-color: var(--color-primary);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background-image: url(../../assets/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+/* END : Swiper
+--------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
