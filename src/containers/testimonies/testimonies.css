@@ -39,7 +39,7 @@
   gap: 1rem;
 }
 
-.ebook__testimonies-container_card-peoplez > img {
+.ebook__testimonies-container_card-people > img {
   height: 50px;
   width: 50px;
   border-radius: 100px;  
@@ -101,7 +101,7 @@
   background-position: center;
 }
 
-.swiper-button-next::after {
+.ebook__testimonies .swiper-button-next::after {
   display: none;
 }
 
@@ -117,7 +117,7 @@
   background-position: center;
 }
 
-.swiper-button-prev::after {
+.ebook__testimonies .swiper-button-prev::after {
   display: none;
 }
 /* END : Swiper

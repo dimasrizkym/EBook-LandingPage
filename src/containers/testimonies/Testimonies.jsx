@@ -82,13 +82,12 @@ const Testimonies = () => {
         >
             {
               testimoniData.map( (el, index) => (
-                <SwiperSlide>
+                <SwiperSlide key={index}>
                   <Card 
                     testimoiesContent={el.content}
                     imageTestimonies={el.image}
                     nameUser={el.userName}
                     position={el.positionUser}
-                    key={index}
                   />
                 </SwiperSlide>
               ))
